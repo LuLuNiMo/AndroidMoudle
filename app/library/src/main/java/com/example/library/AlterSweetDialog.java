@@ -25,8 +25,7 @@ public class AlterSweetDialog {
     public AlterSweetDialog(Context c) {
         dialog = new Dialog(c, R.style.InfoDialog);
 
-        v =   ((LayoutInflater) c.getSystemService(Context.LAYOUT_INFLATER_SERVICE))
-                .inflate(R.layout.alterdialog, null);
+        v =  LayoutInflater.from(c).inflate(R.layout.alterdialog, null);
 
         ed = v.findViewById(R.id.ed);
         btn1 = v.findViewById(R.id.btn1);
