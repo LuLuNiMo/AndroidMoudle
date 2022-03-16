@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     d.show();
 
         timeHandler.postDelayed(timeer, 100);
+
+
     }
 
 

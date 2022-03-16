@@ -9,20 +9,24 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.widget.AppCompatButton;
 
-public class AlterSweetDialog extends AppCompatActivity {
+public class AlterSweetDialog {
     private Dialog dialog;
     private View v;
+
 
     private EditText2 ed;
     private AppCompatButton btn1,btn2,btn3;
     private TextView title,text;
     private ImageView iv;
 
-    public AlterSweetDialog() {
-        dialog = new Dialog(this, R.style.InfoDialog);
-        v = LayoutInflater.from(this).inflate(R.layout.alterdialog, null);
+    public AlterSweetDialog(Context c) {
+        dialog = new Dialog(c, R.style.InfoDialog);
+
+        v =   ((LayoutInflater) c.getSystemService(Context.LAYOUT_INFLATER_SERVICE))
+                .inflate(R.layout.alterdialog, null);
 
         ed = v.findViewById(R.id.ed);
         btn1 = v.findViewById(R.id.btn1);
