@@ -35,18 +35,30 @@ public class AlterSweetDialog {
 
     }
 
-    public void ShowOne(String s1,String s2,boolean isText,int icon){
+    public void ShowOne(String s1,String s2,int icon){
         title.setText(s1);
         text.setText(s2);
         iv.setImageResource(icon);
         btn2.setText("確定");
         btn2.setLayoutParams(showOBJ(230,120));
 
-        if(isText){ed.setLayoutParams(showOBJ(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT));}
-
         btn2.setOnClickListener(v->{
             dialog.dismiss();
         });
+
+        dialog.setContentView(v);
+        dialog.show();
+    }
+
+    public void ShowOne(String s1,String s2,View.OnClickListener event,int icon){
+        title.setText(s1);
+        text.setText(s2);
+        iv.setImageResource(icon);
+        btn2.setText("確定");
+        btn2.setLayoutParams(showOBJ(230,120));
+
+        ed.setLayoutParams(showOBJ(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT));
+        btn2.setOnClickListener(event);
 
         dialog.setContentView(v);
         dialog.show();

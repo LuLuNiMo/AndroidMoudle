@@ -15,9 +15,9 @@ import com.example.library.Moudle_NetWorkHandle;
 
 
 public class MainActivity extends AppCompatActivity {
-    private ProgressDialog d;
-    int i = 0;
-    private Handler timeHandler;
+    //private ProgressDialog d;
+    //int i = 0;
+    //private Handler timeHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        timeHandler = new Handler();
+  /*      timeHandler = new Handler();
         d = new MoudleProgressDialog(this).GradientProgressDiagram("", ProgressDialog.STYLE_HORIZONTAL, MoudleInfos.Progress_Blue,
                 MoudleInfos.image_process);
         d.show();
@@ -33,13 +33,13 @@ public class MainActivity extends AppCompatActivity {
         timeHandler.postDelayed(timeer, 300);
 
 
-        MoudleOtherHelper.CheckBattery(this,"充電阿啊啊錒～～好餓",R.drawable.moudle_battery,R.drawable.moudle_battery,110);
-
+        new AlterSweetDialog(this).ShowOne("Title","可輸入文字",vv->{},R.drawable.moudle_group_edit);
+*/
 
     }
 
 
-    private Runnable timeer = new Runnable() {
+  /*  private Runnable timeer = new Runnable() {
         @Override
         public void run() {
             timeHandler.postDelayed(this, 300);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             d.setProgress(i);
 
         }
-    };
+    };*/
 
 
 }
