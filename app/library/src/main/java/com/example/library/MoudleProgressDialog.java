@@ -4,11 +4,11 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ProgressDialog;
 
-public class ProgressDialog2 {
+public class MoudleProgressDialog {
     private Activity a;
 
 
-    public ProgressDialog2(Activity a) {
+    public MoudleProgressDialog(Activity a) {
         this.a = a;
     }
 
@@ -17,7 +17,7 @@ public class ProgressDialog2 {
         ProgressDialog progressD = new ProgressDialog(a);
         progressD.setProgressStyle(style);
         progressD.setTitle(text);
-        progressD.setIcon(R.drawable.process);
+        progressD.setIcon(R.drawable.moudle_process);
         progressD.setProgressNumberFormat("");
         progressD.setCancelable(false);
         progressD.setIndeterminate(false);

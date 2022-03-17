@@ -1,16 +1,13 @@
 package com.example.androidmoudle;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Handler;
-import android.widget.Toast;
 
-import com.example.library.AlterSweetDialog;
 import com.example.library.MoudleInfos;
-import com.example.library.ProgressDialog2;
+import com.example.library.MoudleProgressDialog;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         timeHandler = new Handler();
-        d = new ProgressDialog2(this).HORIZONTAL_shakeProgressDiagram("123",MoudleInfos.image_process);
+        d = new MoudleProgressDialog(this).HORIZONTAL_shakeProgressDiagram("123",MoudleInfos.image_process);
     d.show();
 
         timeHandler.postDelayed(timeer, 100);

@@ -7,18 +7,18 @@ import android.util.DisplayMetrics;
 import android.view.Display;
 import android.widget.ScrollView;
 
-public class ScrollView2 extends ScrollView {
+public class MoudleScrollView extends ScrollView {
     private Context mContext;
 
-    public ScrollView2(Context context) {
+    public MoudleScrollView(Context context) {
         this(context, null);
     }
 
-    public ScrollView2(Context context, AttributeSet attrs) {
+    public MoudleScrollView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ScrollView2(Context context, AttributeSet attrs, int defStyleAttr) {
+    public MoudleScrollView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.mContext = context;
     }

@@ -8,8 +8,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.widget.AppCompatButton;
 
 public class AlterSweetDialog {
@@ -17,15 +15,15 @@ public class AlterSweetDialog {
     private View v;
 
 
-    private EditText2 ed;
+    private MoudleEditText ed;
     private AppCompatButton btn1,btn2,btn3;
     private TextView title,text;
     private ImageView iv;
 
     public AlterSweetDialog(Context c) {
-        dialog = new Dialog(c, R.style.InfoDialog);
+        dialog = new Dialog(c, R.style.Moudle_InfoDialog);
 
-        v =  LayoutInflater.from(c).inflate(R.layout.alterdialog, null);
+        v =  LayoutInflater.from(c).inflate(R.layout.moudle_dialog, null);
 
         ed = v.findViewById(R.id.ed);
         btn1 = v.findViewById(R.id.btn1);
@@ -115,7 +113,7 @@ public class AlterSweetDialog {
 
     }
 
-    public EditText2 getEd(){
+    public MoudleEditText getEd(){
         return ed;
     }
 

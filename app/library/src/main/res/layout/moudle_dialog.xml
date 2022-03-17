@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:minWidth="320dp"
@@ -14,17 +15,17 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="15dp" />
 
-
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textAlignment="center"
-        android:textColor="@color/TextD"
+        android:textColor="@color/moudle_TextD"
         android:textSize="26sp" />
 
-    <com.example.library.ScrollView2
+
+    <com.example.library.MoudleScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
@@ -40,17 +41,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textColor="@color/TextD"
+                android:textColor="@color/moudle_TextD"
                 android:textSize="26sp" />
         </LinearLayout>
 
-    </com.example.library.ScrollView2>
+    </com.example.library.MoudleScrollView>
 
-    <com.example.library.EditText2
+    <com.example.library.MoudleEditText
         android:id="@+id/ed"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:textColor="@color/TextD"
+        android:textColor="@color/moudle_TextD"
         android:textSize="20sp" />
 
 
@@ -67,7 +68,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginRight="10dp"
-            android:textColor="@color/TextD"
+            android:textColor="@color/moudle_TextD"
             android:textSize="20sp" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -76,7 +77,7 @@
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:textColor="@color/TextD"
+            android:textColor="@color/moudle_TextD"
             android:textSize="20sp" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -84,7 +85,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/TextD"
+            android:textColor="@color/moudle_TextD"
             android:textSize="20sp" />
 
 

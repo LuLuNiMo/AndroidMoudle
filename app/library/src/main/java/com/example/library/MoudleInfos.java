@@ -3,18 +3,18 @@ package com.example.library;
 public class MoudleInfos {
 
     //Drawable 代碼
-    public final static int image_warning = R.drawable.worning;
-    public final static int image_info = R.drawable.info_icon2;
-    public final static int image_barcode = R.drawable.barcode;
-    public final static int image_delete = R.drawable.delete_item;
-    public final static int image_error = R.drawable.error_icon;
-    public final static int image_excel = R.drawable.excel_icon;
-    public final static int image_delete2 = R.drawable.garbage_icon;
-    public final static int image_edit = R.drawable.group_edit;
-    public final static int image_process = R.drawable.process;
-    public final static int image_cloud = R.drawable.update;
-    public final static int image_upload = R.drawable.upload;
-    public final static int image_db_up= R.drawable.upload_icon;
+    public final static int image_warning = R.drawable.moudle_worning;
+    public final static int image_info = R.drawable.moudle_info_icon2;
+    public final static int image_barcode = R.drawable.moudle_barcode;
+    public final static int image_delete = R.drawable.moudle_delete_item;
+    public final static int image_error = R.drawable.moudle_error_icon;
+    public final static int image_excel = R.drawable.moudle_excel_icon;
+    public final static int image_delete2 = R.drawable.moudle_garbage_icon;
+    public final static int image_edit = R.drawable.moudle_group_edit;
+    public final static int image_process = R.drawable.moudle_process;
+    public final static int image_cloud = R.drawable.moudle_update;
+    public final static int image_upload = R.drawable.moudle_upload;
+    public final static int image_db_up= R.drawable.moudle_upload_icon;
 
 
     //Progress 漸層 代碼

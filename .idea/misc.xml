@@ -5,6 +5,8 @@
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.371875" />
         <entry key="app/library/src/main/res/drawable/drawable.xml" value="0.22916666666666666" />
+        <entry key="app/library/src/main/res/drawable/moudle_shape.xml" value="0.36018518518518516" />
+        <entry key="app/library/src/main/res/drawable/moudle_tvstyle.xml" value="0.36018518518518516" />
         <entry key="app/library/src/main/res/drawable/pgc_blue.xml" value="0.3343589743589744" />
         <entry key="app/library/src/main/res/drawable/pgc_green.xml" value="0.3312820512820513" />
         <entry key="app/library/src/main/res/drawable/pgc_pick.xml" value="0.3312820512820513" />
@@ -14,6 +16,8 @@
         <entry key="app/library/src/main/res/drawable/tvstyle.xml" value="0.3558974358974359" />
         <entry key="app/library/src/main/res/layout/alterdialog.xml" value="0.3453125" />
         <entry key="app/library/src/main/res/layout/layout.xml" value="0.21302083333333333" />
+        <entry key="app/library/src/main/res/layout/moudle_alterdialog.xml" value="0.358695652173913" />
+        <entry key="app/library/src/main/res/layout/moudle_dialog.xml" value="0.296875" />
       </map>
     </option>
   </component>

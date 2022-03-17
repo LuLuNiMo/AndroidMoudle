@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="TextA">#CCD1DA</color>
-    <color name="TextB">#A0AEC4</color>
-    <color name="TextC">#697F9C</color>
-    <color name="TextD">#13171B</color>
+    <color name="moudle_TextA">#CCD1DA</color>
+    <color name="moudle_TextB">#A0AEC4</color>
+    <color name="moudle_TextC">#697F9C</color>
+    <color name="moudle_TextD">#13171B</color>
 
 
 </resources>
