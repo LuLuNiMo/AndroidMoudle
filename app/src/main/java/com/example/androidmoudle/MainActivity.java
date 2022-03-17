@@ -6,8 +6,12 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.library.AlterSweetDialog;
 import com.example.library.MoudleInfos;
+import com.example.library.MoudleNotification;
+import com.example.library.MoudleOtherHelper;
 import com.example.library.MoudleProgressDialog;
+import com.example.library.Moudle_NetWorkHandle;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,10 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         timeHandler = new Handler();
-        d = new MoudleProgressDialog(this).HORIZONTAL_shakeProgressDiagram("123",MoudleInfos.image_process);
-    d.show();
+        d = new MoudleProgressDialog(this).GradientProgressDiagram("", ProgressDialog.STYLE_HORIZONTAL, MoudleInfos.Progress_Blue,
+                MoudleInfos.image_process);
+        d.show();
 
-        timeHandler.postDelayed(timeer, 100);
+        timeHandler.postDelayed(timeer, 300);
+
+
+        MoudleOtherHelper.CheckBattery(this,"充電阿啊啊錒～～好餓",R.drawable.moudle_battery,R.drawable.moudle_battery,110);
 
 
     }
@@ -34,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private Runnable timeer = new Runnable() {
         @Override
         public void run() {
-            timeHandler.postDelayed(this, 100);
+            timeHandler.postDelayed(this, 300);
             i++;
             d.setProgress(i);
 

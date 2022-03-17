@@ -15,6 +15,7 @@ public class MoudleInfos {
     public final static int image_cloud = R.drawable.moudle_update;
     public final static int image_upload = R.drawable.moudle_upload;
     public final static int image_db_up= R.drawable.moudle_upload_icon;
+    public final static int image_battery= R.drawable.moudle_battery;
 
 
     //Progress 漸層 代碼
@@ -24,6 +25,11 @@ public class MoudleInfos {
     public final static int Progress_Yellow= R.drawable.pgc_yellow;
     public final static int Progress_Purple= R.drawable.pgc_purple;
 
+
+    //MoudleNotification 訊息型態
+    public static final String Notification_Sound = "PDA_Sound";
+    public static final String Notification_shock = "PDA_shock";
+    public static final String Notification_None = "PDA_None";
 
 
 
